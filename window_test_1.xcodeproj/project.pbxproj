@@ -150,6 +150,7 @@
 		5CB87B161CE220C000FC7E4E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = zhaokai;
 				TargetAttributes = {
@@ -396,6 +397,7 @@
 				5CB87B3A1CE220C000FC7E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CB87B3B1CE220C000FC7E4E /* Build configuration list for PBXNativeTarget "window_test_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +406,7 @@
 				5CB87B3D1CE220C000FC7E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
