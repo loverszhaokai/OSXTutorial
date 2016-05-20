@@ -24,19 +24,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to initialize your application
         print("\t >>applicationDidFinishLaunching()")
         
-        /*
-        monitor = NSEvent.addGlobalMonitorForEventsMatchingMask([.KeyDownMask]) { event in
+         // If you want to monitor KeyDown event, you must ' [System Preferences / Security & Privacy / Accessibility] to control your computer'
+        monitor = NSEvent.addGlobalMonitorForEventsMatchingMask(
+            [NSEventMask.KeyDownMask, NSEventMask.LeftMouseDownMask]) { event in
             print("\t key event captured: keycode=\(event.description)")
         }
-        
         monitor?.start()
-        */
-        
-        // If you want to monitor KeyDown event, you must ' [System Preferences / Security & Privacy / Accessibility] to control your computer'
-        NSEvent.addGlobalMonitorForEventsMatchingMask(NSEventMask.KeyDownMask) {
-            event in
-            print("\t key down event")
-        }
         
         print("\t <<applicationDidFinishLaunching()")
     }
@@ -46,5 +39,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
 
+    
 }
 
