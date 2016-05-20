@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C62E1051CEE9BAC00BD3BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62E1041CEE9BAC00BD3BC4 /* AppDelegate.swift */; };
+		5C62E1071CEE9BAC00BD3BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C62E1061CEE9BAC00BD3BC4 /* Assets.xcassets */; };
+		5C62E10A1CEE9BAC00BD3BC4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C62E1081CEE9BAC00BD3BC4 /* MainMenu.xib */; };
+		5C62E1151CEE9BAC00BD3BC4 /* install_event_handlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62E1141CEE9BAC00BD3BC4 /* install_event_handlerTests.swift */; };
+		5C62E1201CEE9BAC00BD3BC4 /* install_event_handlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62E11F1CEE9BAC00BD3BC4 /* install_event_handlerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C62E1111CEE9BAC00BD3BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C62E0F91CEE9BAC00BD3BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C62E1001CEE9BAC00BD3BC4;
+			remoteInfo = install_event_handler;
+		};
+		5C62E11C1CEE9BAC00BD3BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C62E0F91CEE9BAC00BD3BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C62E1001CEE9BAC00BD3BC4;
+			remoteInfo = install_event_handler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C62E1011CEE9BAC00BD3BC4 /* install_event_handler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = install_event_handler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C62E1041CEE9BAC00BD3BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C62E1061CEE9BAC00BD3BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C62E1091CEE9BAC00BD3BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5C62E10B1CEE9BAC00BD3BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C62E1101CEE9BAC00BD3BC4 /* install_event_handlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = install_event_handlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C62E1141CEE9BAC00BD3BC4 /* install_event_handlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = install_event_handlerTests.swift; sourceTree = "<group>"; };
+		5C62E1161CEE9BAC00BD3BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C62E11B1CEE9BAC00BD3BC4 /* install_event_handlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = install_event_handlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C62E11F1CEE9BAC00BD3BC4 /* install_event_handlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = install_event_handlerUITests.swift; sourceTree = "<group>"; };
+		5C62E1211CEE9BAC00BD3BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C62E0FE1CEE9BAC00BD3BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C62E10D1CEE9BAC00BD3BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C62E1181CEE9BAC00BD3BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C62E0F81CEE9BAC00BD3BC4 = {
+			isa = PBXGroup;
+			children = (
+				5C62E1031CEE9BAC00BD3BC4 /* install_event_handler */,
+				5C62E1131CEE9BAC00BD3BC4 /* install_event_handlerTests */,
+				5C62E11E1CEE9BAC00BD3BC4 /* install_event_handlerUITests */,
+				5C62E1021CEE9BAC00BD3BC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C62E1021CEE9BAC00BD3BC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C62E1011CEE9BAC00BD3BC4 /* install_event_handler.app */,
+				5C62E1101CEE9BAC00BD3BC4 /* install_event_handlerTests.xctest */,
+				5C62E11B1CEE9BAC00BD3BC4 /* install_event_handlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C62E1031CEE9BAC00BD3BC4 /* install_event_handler */ = {
+			isa = PBXGroup;
+			children = (
+				5C62E1041CEE9BAC00BD3BC4 /* AppDelegate.swift */,
+				5C62E1061CEE9BAC00BD3BC4 /* Assets.xcassets */,
+				5C62E1081CEE9BAC00BD3BC4 /* MainMenu.xib */,
+				5C62E10B1CEE9BAC00BD3BC4 /* Info.plist */,
+			);
+			path = install_event_handler;
+			sourceTree = "<group>";
+		};
+		5C62E1131CEE9BAC00BD3BC4 /* install_event_handlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C62E1141CEE9BAC00BD3BC4 /* install_event_handlerTests.swift */,
+				5C62E1161CEE9BAC00BD3BC4 /* Info.plist */,
+			);
+			path = install_event_handlerTests;
+			sourceTree = "<group>";
+		};
+		5C62E11E1CEE9BAC00BD3BC4 /* install_event_handlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C62E11F1CEE9BAC00BD3BC4 /* install_event_handlerUITests.swift */,
+				5C62E1211CEE9BAC00BD3BC4 /* Info.plist */,
+			);
+			path = install_event_handlerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C62E1001CEE9BAC00BD3BC4 /* install_event_handler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C62E1241CEE9BAC00BD3BC4 /* Build configuration list for PBXNativeTarget "install_event_handler" */;
+			buildPhases = (
+				5C62E0FD1CEE9BAC00BD3BC4 /* Sources */,
+				5C62E0FE1CEE9BAC00BD3BC4 /* Frameworks */,
+				5C62E0FF1CEE9BAC00BD3BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = install_event_handler;
+			productName = install_event_handler;
+			productReference = 5C62E1011CEE9BAC00BD3BC4 /* install_event_handler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C62E10F1CEE9BAC00BD3BC4 /* install_event_handlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C62E1271CEE9BAC00BD3BC4 /* Build configuration list for PBXNativeTarget "install_event_handlerTests" */;
+			buildPhases = (
+				5C62E10C1CEE9BAC00BD3BC4 /* Sources */,
+				5C62E10D1CEE9BAC00BD3BC4 /* Frameworks */,
+				5C62E10E1CEE9BAC00BD3BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C62E1121CEE9BAC00BD3BC4 /* PBXTargetDependency */,
+			);
+			name = install_event_handlerTests;
+			productName = install_event_handlerTests;
+			productReference = 5C62E1101CEE9BAC00BD3BC4 /* install_event_handlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C62E11A1CEE9BAC00BD3BC4 /* install_event_handlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C62E12A1CEE9BAC00BD3BC4 /* Build configuration list for PBXNativeTarget "install_event_handlerUITests" */;
+			buildPhases = (
+				5C62E1171CEE9BAC00BD3BC4 /* Sources */,
+				5C62E1181CEE9BAC00BD3BC4 /* Frameworks */,
+				5C62E1191CEE9BAC00BD3BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C62E11D1CEE9BAC00BD3BC4 /* PBXTargetDependency */,
+			);
+			name = install_event_handlerUITests;
+			productName = install_event_handlerUITests;
+			productReference = 5C62E11B1CEE9BAC00BD3BC4 /* install_event_handlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C62E0F91CEE9BAC00BD3BC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = zhaokai;
+				TargetAttributes = {
+					5C62E1001CEE9BAC00BD3BC4 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					5C62E10F1CEE9BAC00BD3BC4 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5C62E1001CEE9BAC00BD3BC4;
+					};
+					5C62E11A1CEE9BAC00BD3BC4 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5C62E1001CEE9BAC00BD3BC4;
+					};
+				};
+			};
+			buildConfigurationList = 5C62E0FC1CEE9BAC00BD3BC4 /* Build configuration list for PBXProject "install_event_handler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C62E0F81CEE9BAC00BD3BC4;
+			productRefGroup = 5C62E1021CEE9BAC00BD3BC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C62E1001CEE9BAC00BD3BC4 /* install_event_handler */,
+				5C62E10F1CEE9BAC00BD3BC4 /* install_event_handlerTests */,
+				5C62E11A1CEE9BAC00BD3BC4 /* install_event_handlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C62E0FF1CEE9BAC00BD3BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C62E1071CEE9BAC00BD3BC4 /* Assets.xcassets in Resources */,
+				5C62E10A1CEE9BAC00BD3BC4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C62E10E1CEE9BAC00BD3BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C62E1191CEE9BAC00BD3BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C62E0FD1CEE9BAC00BD3BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C62E1051CEE9BAC00BD3BC4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C62E10C1CEE9BAC00BD3BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C62E1151CEE9BAC00BD3BC4 /* install_event_handlerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C62E1171CEE9BAC00BD3BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C62E1201CEE9BAC00BD3BC4 /* install_event_handlerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C62E1121CEE9BAC00BD3BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C62E1001CEE9BAC00BD3BC4 /* install_event_handler */;
+			targetProxy = 5C62E1111CEE9BAC00BD3BC4 /* PBXContainerItemProxy */;
+		};
+		5C62E11D1CEE9BAC00BD3BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C62E1001CEE9BAC00BD3BC4 /* install_event_handler */;
+			targetProxy = 5C62E11C1CEE9BAC00BD3BC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C62E1081CEE9BAC00BD3BC4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C62E1091CEE9BAC00BD3BC4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C62E1221CEE9BAC00BD3BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C62E1231CEE9BAC00BD3BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C62E1251CEE9BAC00BD3BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = install_event_handler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.install-event-handler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C62E1261CEE9BAC00BD3BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = install_event_handler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.install-event-handler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C62E1281CEE9BAC00BD3BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = install_event_handlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.install-event-handlerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/install_event_handler.app/Contents/MacOS/install_event_handler";
+			};
+			name = Debug;
+		};
+		5C62E1291CEE9BAC00BD3BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = install_event_handlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.install-event-handlerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/install_event_handler.app/Contents/MacOS/install_event_handler";
+			};
+			name = Release;
+		};
+		5C62E12B1CEE9BAC00BD3BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = install_event_handlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.install-event-handlerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = install_event_handler;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5C62E12C1CEE9BAC00BD3BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = install_event_handlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.install-event-handlerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = install_event_handler;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C62E0FC1CEE9BAC00BD3BC4 /* Build configuration list for PBXProject "install_event_handler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C62E1221CEE9BAC00BD3BC4 /* Debug */,
+				5C62E1231CEE9BAC00BD3BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C62E1241CEE9BAC00BD3BC4 /* Build configuration list for PBXNativeTarget "install_event_handler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C62E1251CEE9BAC00BD3BC4 /* Debug */,
+				5C62E1261CEE9BAC00BD3BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C62E1271CEE9BAC00BD3BC4 /* Build configuration list for PBXNativeTarget "install_event_handlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C62E1281CEE9BAC00BD3BC4 /* Debug */,
+				5C62E1291CEE9BAC00BD3BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C62E12A1CEE9BAC00BD3BC4 /* Build configuration list for PBXNativeTarget "install_event_handlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C62E12B1CEE9BAC00BD3BC4 /* Debug */,
+				5C62E12C1CEE9BAC00BD3BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C62E0F91CEE9BAC00BD3BC4 /* Project object */;
+}

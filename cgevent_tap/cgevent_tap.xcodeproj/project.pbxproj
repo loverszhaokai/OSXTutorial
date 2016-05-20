@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C03AB0D1CEF4C1800138BD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03AB0C1CEF4C1800138BD3 /* AppDelegate.swift */; };
+		5C03AB0F1CEF4C1800138BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C03AB0E1CEF4C1800138BD3 /* Assets.xcassets */; };
+		5C03AB121CEF4C1800138BD3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C03AB101CEF4C1800138BD3 /* MainMenu.xib */; };
+		5C03AB1D1CEF4C1800138BD3 /* cgevent_tapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03AB1C1CEF4C1800138BD3 /* cgevent_tapTests.swift */; };
+		5C03AB281CEF4C1800138BD3 /* cgevent_tapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03AB271CEF4C1800138BD3 /* cgevent_tapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C03AB191CEF4C1800138BD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C03AB011CEF4C1700138BD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C03AB081CEF4C1700138BD3;
+			remoteInfo = cgevent_tap;
+		};
+		5C03AB241CEF4C1800138BD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C03AB011CEF4C1700138BD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C03AB081CEF4C1700138BD3;
+			remoteInfo = cgevent_tap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C03AB091CEF4C1700138BD3 /* cgevent_tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cgevent_tap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C03AB0C1CEF4C1800138BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C03AB0E1CEF4C1800138BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C03AB111CEF4C1800138BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5C03AB131CEF4C1800138BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C03AB181CEF4C1800138BD3 /* cgevent_tapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cgevent_tapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C03AB1C1CEF4C1800138BD3 /* cgevent_tapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cgevent_tapTests.swift; sourceTree = "<group>"; };
+		5C03AB1E1CEF4C1800138BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C03AB231CEF4C1800138BD3 /* cgevent_tapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cgevent_tapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C03AB271CEF4C1800138BD3 /* cgevent_tapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cgevent_tapUITests.swift; sourceTree = "<group>"; };
+		5C03AB291CEF4C1800138BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C03AB061CEF4C1700138BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C03AB151CEF4C1800138BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C03AB201CEF4C1800138BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C03AB001CEF4C1700138BD3 = {
+			isa = PBXGroup;
+			children = (
+				5C03AB0B1CEF4C1700138BD3 /* cgevent_tap */,
+				5C03AB1B1CEF4C1800138BD3 /* cgevent_tapTests */,
+				5C03AB261CEF4C1800138BD3 /* cgevent_tapUITests */,
+				5C03AB0A1CEF4C1700138BD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C03AB0A1CEF4C1700138BD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C03AB091CEF4C1700138BD3 /* cgevent_tap.app */,
+				5C03AB181CEF4C1800138BD3 /* cgevent_tapTests.xctest */,
+				5C03AB231CEF4C1800138BD3 /* cgevent_tapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C03AB0B1CEF4C1700138BD3 /* cgevent_tap */ = {
+			isa = PBXGroup;
+			children = (
+				5C03AB0C1CEF4C1800138BD3 /* AppDelegate.swift */,
+				5C03AB0E1CEF4C1800138BD3 /* Assets.xcassets */,
+				5C03AB101CEF4C1800138BD3 /* MainMenu.xib */,
+				5C03AB131CEF4C1800138BD3 /* Info.plist */,
+			);
+			path = cgevent_tap;
+			sourceTree = "<group>";
+		};
+		5C03AB1B1CEF4C1800138BD3 /* cgevent_tapTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C03AB1C1CEF4C1800138BD3 /* cgevent_tapTests.swift */,
+				5C03AB1E1CEF4C1800138BD3 /* Info.plist */,
+			);
+			path = cgevent_tapTests;
+			sourceTree = "<group>";
+		};
+		5C03AB261CEF4C1800138BD3 /* cgevent_tapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C03AB271CEF4C1800138BD3 /* cgevent_tapUITests.swift */,
+				5C03AB291CEF4C1800138BD3 /* Info.plist */,
+			);
+			path = cgevent_tapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C03AB081CEF4C1700138BD3 /* cgevent_tap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C03AB2C1CEF4C1800138BD3 /* Build configuration list for PBXNativeTarget "cgevent_tap" */;
+			buildPhases = (
+				5C03AB051CEF4C1700138BD3 /* Sources */,
+				5C03AB061CEF4C1700138BD3 /* Frameworks */,
+				5C03AB071CEF4C1700138BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cgevent_tap;
+			productName = cgevent_tap;
+			productReference = 5C03AB091CEF4C1700138BD3 /* cgevent_tap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C03AB171CEF4C1800138BD3 /* cgevent_tapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C03AB2F1CEF4C1800138BD3 /* Build configuration list for PBXNativeTarget "cgevent_tapTests" */;
+			buildPhases = (
+				5C03AB141CEF4C1800138BD3 /* Sources */,
+				5C03AB151CEF4C1800138BD3 /* Frameworks */,
+				5C03AB161CEF4C1800138BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C03AB1A1CEF4C1800138BD3 /* PBXTargetDependency */,
+			);
+			name = cgevent_tapTests;
+			productName = cgevent_tapTests;
+			productReference = 5C03AB181CEF4C1800138BD3 /* cgevent_tapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C03AB221CEF4C1800138BD3 /* cgevent_tapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C03AB321CEF4C1800138BD3 /* Build configuration list for PBXNativeTarget "cgevent_tapUITests" */;
+			buildPhases = (
+				5C03AB1F1CEF4C1800138BD3 /* Sources */,
+				5C03AB201CEF4C1800138BD3 /* Frameworks */,
+				5C03AB211CEF4C1800138BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C03AB251CEF4C1800138BD3 /* PBXTargetDependency */,
+			);
+			name = cgevent_tapUITests;
+			productName = cgevent_tapUITests;
+			productReference = 5C03AB231CEF4C1800138BD3 /* cgevent_tapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C03AB011CEF4C1700138BD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = zhaokai;
+				TargetAttributes = {
+					5C03AB081CEF4C1700138BD3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					5C03AB171CEF4C1800138BD3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5C03AB081CEF4C1700138BD3;
+					};
+					5C03AB221CEF4C1800138BD3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5C03AB081CEF4C1700138BD3;
+					};
+				};
+			};
+			buildConfigurationList = 5C03AB041CEF4C1700138BD3 /* Build configuration list for PBXProject "cgevent_tap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C03AB001CEF4C1700138BD3;
+			productRefGroup = 5C03AB0A1CEF4C1700138BD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C03AB081CEF4C1700138BD3 /* cgevent_tap */,
+				5C03AB171CEF4C1800138BD3 /* cgevent_tapTests */,
+				5C03AB221CEF4C1800138BD3 /* cgevent_tapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C03AB071CEF4C1700138BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C03AB0F1CEF4C1800138BD3 /* Assets.xcassets in Resources */,
+				5C03AB121CEF4C1800138BD3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C03AB161CEF4C1800138BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C03AB211CEF4C1800138BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C03AB051CEF4C1700138BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C03AB0D1CEF4C1800138BD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C03AB141CEF4C1800138BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C03AB1D1CEF4C1800138BD3 /* cgevent_tapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C03AB1F1CEF4C1800138BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C03AB281CEF4C1800138BD3 /* cgevent_tapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C03AB1A1CEF4C1800138BD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C03AB081CEF4C1700138BD3 /* cgevent_tap */;
+			targetProxy = 5C03AB191CEF4C1800138BD3 /* PBXContainerItemProxy */;
+		};
+		5C03AB251CEF4C1800138BD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C03AB081CEF4C1700138BD3 /* cgevent_tap */;
+			targetProxy = 5C03AB241CEF4C1800138BD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C03AB101CEF4C1800138BD3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C03AB111CEF4C1800138BD3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C03AB2A1CEF4C1800138BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C03AB2B1CEF4C1800138BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C03AB2D1CEF4C1800138BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = cgevent_tap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.cgevent-tap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C03AB2E1CEF4C1800138BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = cgevent_tap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.cgevent-tap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C03AB301CEF4C1800138BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = cgevent_tapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.cgevent-tapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cgevent_tap.app/Contents/MacOS/cgevent_tap";
+			};
+			name = Debug;
+		};
+		5C03AB311CEF4C1800138BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = cgevent_tapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.cgevent-tapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cgevent_tap.app/Contents/MacOS/cgevent_tap";
+			};
+			name = Release;
+		};
+		5C03AB331CEF4C1800138BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = cgevent_tapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.cgevent-tapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cgevent_tap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5C03AB341CEF4C1800138BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = cgevent_tapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.cgevent-tapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cgevent_tap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C03AB041CEF4C1700138BD3 /* Build configuration list for PBXProject "cgevent_tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C03AB2A1CEF4C1800138BD3 /* Debug */,
+				5C03AB2B1CEF4C1800138BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C03AB2C1CEF4C1800138BD3 /* Build configuration list for PBXNativeTarget "cgevent_tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C03AB2D1CEF4C1800138BD3 /* Debug */,
+				5C03AB2E1CEF4C1800138BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C03AB2F1CEF4C1800138BD3 /* Build configuration list for PBXNativeTarget "cgevent_tapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C03AB301CEF4C1800138BD3 /* Debug */,
+				5C03AB311CEF4C1800138BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C03AB321CEF4C1800138BD3 /* Build configuration list for PBXNativeTarget "cgevent_tapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C03AB331CEF4C1800138BD3 /* Debug */,
+				5C03AB341CEF4C1800138BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C03AB011CEF4C1700138BD3 /* Project object */;
+}
